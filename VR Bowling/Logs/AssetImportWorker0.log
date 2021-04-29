@@ -1,0 +1,689 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32687 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Design/Unity/Github/Workshops/Workshop-VR-Bowling-Repo/VR Bowling
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53253
+Successfully changed project path to: D:/Design/Unity/Github/Workshops/Workshop-VR-Bowling-Repo/VR Bowling
+D:/Design/Unity/Github/Workshops/Workshop-VR-Bowling-Repo/VR Bowling
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.71 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Design/Unity/Github/Workshops/Workshop-VR-Bowling-Repo/VR Bowling/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001495 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.44 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3317.
+Total: 5.217900 ms (FindLiveObjects: 0.382100 ms CreateObjectMapping: 0.230700 ms MarkObjects: 2.566000 ms  DeleteObjects: 2.037300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3058c7470635987426425681463182b') in 0.007883 seconds
+  Import took 0.012110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.626450 seconds.
+  path: Assets/Models/Bowling Kegel & Ball/Prefabs/Ball.prefab
+  artifactKey: Guid(ac1af96fd5e0f4f9e97339b652aa389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bowling Kegel & Ball/Prefabs/Ball.prefab using Guid(ac1af96fd5e0f4f9e97339b652aa389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e931f6c385fff9b81e561870d2bc5e') in 0.215250 seconds
+  Import took 0.220424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 594.236436 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Export/controller_bc.tga
+  artifactKey: Guid(799069da75898194c84ccaf470442c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Export/controller_bc.tga using Guid(799069da75898194c84ccaf470442c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6e354bf57f2f13ecc8dea2a30722b9') in 0.151708 seconds
+  Import took 0.157253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Export/controller_r.fbx
+  artifactKey: Guid(975ffa5b952312c4e878d62227e97e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Export/controller_r.fbx using Guid(975ffa5b952312c4e878d62227e97e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fc264e4ef582bd43fe7dd33ac79c8f') in 0.135567 seconds
+  Import took 0.139324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.645397 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Controller_illustration.png
+  artifactKey: Guid(59b97f97512065b428c2d17a5ae2698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest & Rift S/Controller_illustration.png using Guid(59b97f97512065b428c2d17a5ae2698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af0f7bec80c8e4dfc49359548484191') in 0.132612 seconds
+  Import took 0.136973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.932298 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2515eeb0bdb7e6a968c3b0001f1c8230') in 0.029832 seconds
+  Import took 0.035176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2655398f01a9584b64458346ec3739') in 0.022061 seconds
+  Import took 0.026621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2515eeb0bdb7e6a968c3b0001f1c8230') in 0.003297 seconds
+  Import took 0.008559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7544c628f17d39e695ed44999b5629') in 0.023703 seconds
+  Import took 0.027997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41cca23fb86a76f2e7dad220ef1603f') in 0.013886 seconds
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2890ef1c1709f96bf2bae7e21e7a1392') in 0.017311 seconds
+  Import took 0.021950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/0.10.0-preview.7/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0e6c1a7d02f437b0accd36aea18b77') in 0.022315 seconds
+  Import took 0.026712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 528.143441 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(8612b594091a5824c90369e1839a64fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(8612b594091a5824c90369e1839a64fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c01bc12879459e20b892f61fa86d3ed') in 0.013525 seconds
+  Import took 0.018739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.415382 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3be3cd34f8af4f46fd60acfc6eef6d') in 0.007113 seconds
+  Import took 0.011857 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.6 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3406.
+Total: 4.624400 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.277500 ms MarkObjects: 2.604000 ms  DeleteObjects: 1.279600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.991717 seconds.
+  path: Assets/Materials/Bouncy.physicMaterial
+  artifactKey: Guid(a35c77e2998e90c44882bb8548839034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bouncy.physicMaterial using Guid(a35c77e2998e90c44882bb8548839034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3862ed437789a9ca2f8a8c603eb6e4') in 0.018037 seconds
+  Import took 0.023693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003241 seconds.
+  path: Assets/Materials/Bouncy.physicMaterial
+  artifactKey: Guid(a35c77e2998e90c44882bb8548839034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bouncy.physicMaterial using Guid(a35c77e2998e90c44882bb8548839034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3862ed437789a9ca2f8a8c603eb6e4') in 0.001402 seconds
+  Import took 0.005544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.274076 seconds.
+  path: Assets/Models/Bowling Kegel & Ball/Resources/Materials/Floor.mat
+  artifactKey: Guid(4086ba60a7f1045ca8d0935912bbecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bowling Kegel & Ball/Resources/Materials/Floor.mat using Guid(4086ba60a7f1045ca8d0935912bbecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2be316c667b5b41fead404448162b0c') in 0.142662 seconds
+  Import took 0.147503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div0.fbx
+  artifactKey: Guid(0553554be54902940ab2c889db47041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div0.fbx using Guid(0553554be54902940ab2c889db47041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8dd39bb10520c28e99e485585b9541') in 0.678656 seconds
+  Import took 0.683094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div1.fbx
+  artifactKey: Guid(9d0efab1844cbec44a8282a6ed416dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div1.fbx using Guid(9d0efab1844cbec44a8282a6ed416dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648f3e8ae8e810e8c478d267f34c83ec') in 0.070446 seconds
+  Import took 0.075872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div2.fbx
+  artifactKey: Guid(e668d6c3da23b0d4aa93aaceebe889b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/oculus-controller-art-v1.3/oculus-controller-art-v1.3/Oculus Touch for Quest 2/quest2_contollers_div2.fbx using Guid(e668d6c3da23b0d4aa93aaceebe889b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87800ac689f8165da233104b9a9636d') in 0.109937 seconds
+  Import took 0.115025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.434897 seconds.
+  path: Assets/Prefabs/Kegel.prefab
+  artifactKey: Guid(d77d4f1214f35ef4eb4f0431783b3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Kegel.prefab using Guid(d77d4f1214f35ef4eb4f0431783b3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d2bf982476f8a77c3dffd8e39c7c34') in 0.015177 seconds
+  Import took 0.057475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.9 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 3.605000 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.181700 ms MarkObjects: 1.876200 ms  DeleteObjects: 1.125300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.046302 seconds.
+  path: Assets/Materials/PM
+  artifactKey: Guid(cf954c36bc3533b4b8d61a0211a3a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM using Guid(cf954c36bc3533b4b8d61a0211a3a810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779d0e934bd94b6a889688c7f1b187a2') in 0.008504 seconds
+  Import took 0.012674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.664325 seconds.
+  path: Assets/Materials/PM/Bouncy 2.physicMaterial
+  artifactKey: Guid(3dbc0dd05b641b042a9d75518093ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM/Bouncy 2.physicMaterial using Guid(3dbc0dd05b641b042a9d75518093ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398b8b78d7259dbe66280c1fdf940315') in 0.015731 seconds
+  Import took 0.019717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.008165 seconds.
+  path: Assets/Materials/PM/Slippery@.physicMaterial
+  artifactKey: Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM/Slippery@.physicMaterial using Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71ef9638e51402d1445d619f5d76edc') in 0.005001 seconds
+  Import took 0.009663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.703399 seconds.
+  path: Assets/Materials/PM/Slippery 2.physicMaterial
+  artifactKey: Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM/Slippery 2.physicMaterial using Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd287533c54d349cd1fe0ef334062d7') in 0.006234 seconds
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.977841 seconds.
+  path: Assets/Materials/PM/Bouncy 2.physicMaterial
+  artifactKey: Guid(3dbc0dd05b641b042a9d75518093ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM/Bouncy 2.physicMaterial using Guid(3dbc0dd05b641b042a9d75518093ca49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f0d01b505f574ae80578897a9cb7f3') in 0.001915 seconds
+  Import took 0.006508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Materials/PM/Slippery 2.physicMaterial
+  artifactKey: Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PM/Slippery 2.physicMaterial using Guid(7166fe334fbeb8f46a0e2c8699c4114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f267d59c0f8a38ca1ac92d66c87a25') in 0.001625 seconds
+  Import took 0.006045 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 142.9 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3448.
+Total: 4.256100 ms (FindLiveObjects: 0.391700 ms CreateObjectMapping: 0.216000 ms MarkObjects: 2.258800 ms  DeleteObjects: 1.387900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 4.122200 ms (FindLiveObjects: 0.640600 ms CreateObjectMapping: 0.289900 ms MarkObjects: 1.868600 ms  DeleteObjects: 1.321300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.559968 seconds.
+  path: Assets/Scripts/BallReseter.cs
+  artifactKey: Guid(139f2a2660561bd4b9dd4ab09c30aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BallReseter.cs using Guid(139f2a2660561bd4b9dd4ab09c30aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a64ba0be8eecd2df2ecdab9321b43ef') in 0.020100 seconds
+  Import took 0.024097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 4.564100 ms (FindLiveObjects: 0.603300 ms CreateObjectMapping: 0.271900 ms MarkObjects: 2.419400 ms  DeleteObjects: 1.266900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 5.294000 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.198800 ms MarkObjects: 3.257600 ms  DeleteObjects: 1.424900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3461.
+Total: 5.250300 ms (FindLiveObjects: 0.754400 ms CreateObjectMapping: 0.343900 ms MarkObjects: 2.901200 ms  DeleteObjects: 1.248200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.231604 seconds.
+  path: Assets/Materials/Materials/Bowling Lane.mat
+  artifactKey: Guid(85226100216f10447a9837b3607645cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Bowling Lane.mat using Guid(85226100216f10447a9837b3607645cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081cc8ab9b8d6af1b792a13b25e676c1') in 0.154495 seconds
+  Import took 0.159381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.654362 seconds.
+  path: Assets/Materials/Invisible.mat
+  artifactKey: Guid(7b539644b59d77d498ff10d288d7913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Invisible.mat using Guid(7b539644b59d77d498ff10d288d7913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b7d1d65a7eee74855bbd35e0735694') in 0.011189 seconds
+  Import took 0.015983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.868417 seconds.
+  path: Assets/Materials/Invisible.mat
+  artifactKey: Guid(7b539644b59d77d498ff10d288d7913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Invisible.mat using Guid(7b539644b59d77d498ff10d288d7913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013b26c38d65bb9e209698e310cd01fa') in 0.005597 seconds
+  Import took 0.010321 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.2 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3500.
+Total: 5.976700 ms (FindLiveObjects: 1.059200 ms CreateObjectMapping: 0.645900 ms MarkObjects: 2.896900 ms  DeleteObjects: 1.371200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.3 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3503.
+Total: 3.932400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.064700 ms  DeleteObjects: 1.398300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.3 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 4.161300 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.247200 ms MarkObjects: 2.154900 ms  DeleteObjects: 1.326700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Design\Unity\Github\Workshops\Workshop-VR-Bowling-Repo\VR Bowling\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.3 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 3.804000 ms (FindLiveObjects: 0.391000 ms CreateObjectMapping: 0.162600 ms MarkObjects: 1.721000 ms  DeleteObjects: 1.528000 ms)
+
